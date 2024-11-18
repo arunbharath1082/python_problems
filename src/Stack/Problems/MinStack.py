@@ -35,8 +35,6 @@ class MinStack2:
     def __init__(self):
         self.stack=[]
 
-        
-
     def push(self,val):
         if not self.stack:
             self.stack.append((val,val))
