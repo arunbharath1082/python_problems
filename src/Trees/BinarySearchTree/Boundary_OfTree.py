@@ -10,7 +10,6 @@ def boundaryOfBinaryTree(root):
         return []
     if not root.left and not root.right:
         return [root.key]
-
     left_boundary = []
     right_boundary = []
     leaves = []
